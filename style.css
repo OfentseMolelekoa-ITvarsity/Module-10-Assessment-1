@@ -1,0 +1,134 @@
+/*=====================General Reset and global style==================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 30px;
+}
+/*=====================General Reset and global style==================================*/
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 2px solid transparent;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: #ff4081;
+    border-color: #ff4081;
+    color: #fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+#submitForm {
+    background-color: #3f51b5;
+    color: white;
+    border: 2px solid #3f51b5;
+}
+
+#submitForm:hover {
+    background-color: #303f9f;
+    border-color: #303f9f;
+}
+
+#getData, #getList {
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid #4caf50;
+}
+
+#getData:hover, #getList:hover {
+    background-color: #388e3c;
+    border-color: #388e3c;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.input-field {
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 48%;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #3f51b5;
+    background-color: #fff;
+    outline: none;
+}
+
+#posts {
+    margin-top: 30px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+ul li h2 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+ul li b {
+    color: #555;
+}
+
+ul li p {
+    font-size: 1rem;
+    color: #777;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+}
